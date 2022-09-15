@@ -1,0 +1,57 @@
+table
+{
+    font-family:sans-serif;
+    border-collapse:collapse;
+    width: 50%;
+    font-size: 170%;
+}
+th, td 
+{
+    border: 2px solid black;
+}
+.leftfloat
+{
+    float:left;
+}
+.rightfloat
+{
+    float:right;
+}
+.imgup
+{
+    margin-top:-5%;
+}
+h1
+{
+    font-size:260%;
+    font-weight:bolder;
+}
+body
+{
+    font-family: 'Questrial', sand-serif;
+}
+.linker
+{
+    position:fixed;
+    top:95%;
+}
+.colorbackground
+{
+    background-color:#CDFD6D;
+}
+.font1
+{
+    font-family:'Alfa Slab One';
+}
+.topnone
+{
+    margin-top:-5%;
+}
+.yellow
+{
+    background-color:#FFF200;
+}
+.morecenter
+{
+    margin-left:400px;
+}

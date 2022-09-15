@@ -1,0 +1,20 @@
+h1
+{
+font-size: 425%;
+
+}
+body
+{
+    font-family: 'Poppins', sans-serif
+}
+h4
+{
+    font-size:200%;
+}
+p{
+    font-weight:bold;
+}
+.tab
+{
+    tab-size:4;
+}

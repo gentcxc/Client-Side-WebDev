@@ -1,0 +1,60 @@
+.rightfloat
+{
+    float:right;
+}
+.leftfloat
+{
+    float:left;
+}
+.ralign
+{
+    text-align:right;
+}
+body
+{
+    background-color:#338A2E;
+    padding:20px;
+}
+content
+{
+    font-family: 'Fredoka One';
+    font-size:250%;
+}
+.calign
+{
+    text-align:center;
+}
+h1
+{
+    font-size:6em;
+    color:white;
+    font-family: 'Fredoka One'
+}
+footer
+{
+    font-family: 'Fredoka One';
+    text-align: right;
+}
+.fullscreen
+{
+    width:1080px;
+    right:0%;
+    left:0%;
+}
+header
+{
+    width:100%;
+}
+.hrdecent
+{
+    border:3px solid black;
+}
+.standout
+{
+    font-weight: bold;
+    font-size:1.2em;
+}
+.ntext
+{
+    font-size:95%
+}

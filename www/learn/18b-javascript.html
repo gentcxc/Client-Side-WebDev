@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=charset="UTF-8">
+    <title>CCarta</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"> 
+    <link rel="stylesheet" type="text/css" href="css/your-style-sheet-name.css">
+
+</head>
+<body>
+    <main>
+        <h1>Google Map API</h1>
+        <div id="map" style="width:100%;height:800px;"></div>
+
+    <script>
+        function myMap() {
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {
+                center: new google.maps.LatLng(51.5, -0.2),
+                zoom: 10
+            };
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+        } 
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuhZnk1fUKnkwBFyFmmgQRKUAsy2qyP1E&callback=myMap"></script>
+
+
+
+
+
+
+    </main>
+</body>
+</html>

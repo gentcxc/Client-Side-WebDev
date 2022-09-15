@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+}
+a{
+    font-size:150%;
+}
+.divgrey
+{
+background-color:lightgrey;
+font-size:200%;
+}
+.bigger
+{
+font-size:200%;
+}
+
+.divborder{
+border:5px solid black;
+
+}
+

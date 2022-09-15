@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=charset="UTF-8">
+    <title>CCarta</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"> 
+    <link rel="stylesheet" type="text/css" href="css/your-style-sheet-name.css">
+    <link rel="stylesheet" type="text/css" href="css/13.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet"> 
+</head>
+<body class="font1 yellow">
+    <main>
+        <img class="leftfloat topnone" src="img/mcd1.jpeg" width=400px height=1000em>
+        <img class="rightfloat topnone" src="img/mcd1.jpeg" width=400px height=1000em>
+        <content>
+        <h1>McDonald's Order</h1>
+        <form class="morecenter" name="myForm" action="display-form-data.php" method="post">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+           
+         
+        <form>
+            <input type="checkbox" id="nug1" name="nug1" value="4nug">
+            <label for="nug1">4 piece mcnugget</label><br>
+            <input type="checkbox" id="nug2" name="nug2" value="6nug">
+            <label for="nug1">6 piece mcnugget</label><br>
+            <input type="checkbox" id="nug2" name="nug2" value="10nug">
+            <label for="nug1">10 piece mcnugget</label><br>
+            <input type="checkbox" id="nug2" name="nug2" value="20nug">
+            <label for="nug1">20 piece mcnugget</label><br>
+
+            <br>
+            <label for="sauces">Choose a sauce:</label>
+            <select id="sauces" name="saucelist">
+            <option value="volvo">Sweet n' Sour</option>
+            <option value="saab">BBQ</option>
+            <option value="opel">Ketchup</option>
+            <option value="audi">Creamy Ranch</option>
+            </select>
+            
+            <br><br>
+
+            <input type="radio" id="item1" name="item1" value="fishfilet">
+            <label for="nug1">Fish Filet</label><br>
+            <input type="radio" id="item2" name="item2" value="Big Mac">
+            <label for="nug1">Big Mac</label><br>
+            <input type="radio" id="item3" name="item2" value="McChicken">
+            <label for="nug1">McChicken</label><br>
+            <input type="radio" id="item4" name="item4" value="Quarter Pounder">
+            <label for="nug1">Quarter Pounder</label><br>
+
+            <br><br>
+            <textarea rows="4" cols="50" name="comment" form="usrform">Enter extra notes here..</textarea>
+
+            <br><br><br>
+            </form>
+            </content>
+            <input type="button" onclick="formSubmit()" value="Send form">
+            
+
+
+
+
+
+
+
+
+
+
+    </main>
+</body>
+</html>
