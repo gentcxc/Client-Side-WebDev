@@ -1,5 +1,5 @@
 # Client-Side-WebDev
-Spring 2022 Web Development Class Work and Final Project
+Spring 2022 Web Development Class Work and Final Project \n
 To Locate Final Project: www/project
 Much of the website was produced with 1920 x 1080 resolution screens running 125% scale, which seems to be a relatively common standard for Windows machines.
 Because of this it may look discombobulated or cryptic on other resolutions or configurations.
